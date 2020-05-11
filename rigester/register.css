@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-style: normal;
+  font-family: 'Microsoft YaHei'
+}
+li {
+  list-style: none;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+.wrapper {
+  width: 1200px;
+  margin: auto;
+}
+.reg_area {
+  width: 580px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+.reg_area h3 {
+  height: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 0 10px;
+  background-color: #ececec;
+  display: flex;
+  justify-content: space-between;
+}
+.reg_form {
+  width: 600px;
+  height: 400px;
+  margin: 40px auto;
+}
+.reg_form li {
+  margin-bottom: 15px;
+}
+.reg_form label {
+  width: 100px;
+  height: 36px;
+  color: #666;
+  line-height: 36px;
+  text-align: right;
+  display: inline-block;
+}
+.input {
+  width: 238px;
+  height: 34px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  padding-left: 5px;
+  outline: none;
+  border-radius: 4px;
+}
+.safe {
+  padding-left: 187px;
+  color: #b2b2b2;
+}
+.safe em {
+  padding: 0 12px;
+  color: #fff;
+}
+.ruo {
+  background-color: #de1111;
+}
+.zhong {
+  background-color: #40b83f;
+}
+.qiang {
+  background-color: #f79100;
+}
+.finish {
+  height: 34px;
+  width: 200px;
+  border: none;
+  color: #fff;
+  line-height: 34px;
+  text-align: center;
+  margin: 30px 0 0 130px;
+  background-color: #c81623;
+  cursor: pointer;
+}
+.error {
+  color: #de1111;
+  margin-left: 10px;
+}
+.success{
+  color: #40b83f;
+  margin-left: 10px;
+}
+.error_icon,
+.success_icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(./img/error.png) no-repeat;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+.success_icon {
+  background: url(./img/success.png);
+}

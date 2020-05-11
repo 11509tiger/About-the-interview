@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>注册页面</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="reg_area">
+      <h3>注册新用户
+        <em>我有账号，去<a href="login.html" target="_blank">登录</a></em>
+      </h3>
+      <div class="reg_form">
+        <form action="">
+          <ul>
+            <li>
+              <label for="uname">用户名</label>
+              <input type="text" class="input" id="uname" placeholder="请输入6-15位字母数字下划线">
+              <span class=""></span>
+            </li>
+            <li>
+              <label for="pwd">密码</label>
+              <input type="password" class="input" id="pwd">
+              <span class=""></span>
+            </li>
+            <li>
+              <label for="surepwd">确认密码</label>
+              <input type="password" class="input" id="surepwd">
+              <span class=""></span>
+            </li>
+            <li class="safe">安全程度
+              <em class="ruo">弱</em>
+              <em class="zhong">中</em>
+              <em class="qiang">强</em>
+            </li>
+            <li>
+              <label for="dname">昵称</label>
+              <input type="text" class="input" id="dname">
+              <span class=""></span>
+            </li>
+            <li>
+              <label for="email">注册邮箱</label>
+              <input type="text" class="input" id="email">
+              <span class=""></span>
+            </li>
+            <li>
+              <input type="submit" value="完成注册" class="finish">
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="register.js"></script>
+</body>
+</html>
